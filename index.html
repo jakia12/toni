@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon.png"
+    />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS scroll effect cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <!-- tailwind css cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- css link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>TONI</title>
+  </head>
+
+  <body>
+    <div
+      class="container_site w-full h-auto relative max-w-[100%] overflow-hidden"
+    >
+      <!-- navbar -->
+      <nav
+        class="absolute z-[99] left-0 top-0 flex justify-center items-center w-full h-[130px] gap-[1rem] xl:gap-[2rem]"
+        data-aos="fade-down"
+        data-aos-duration="500"
+        data-aos-delay="100"
+      >
+        <a
+          target="_blank"
+          href="twitterlink"
+          class="social hover:rotate-[25deg] duration-200 relative flex justify-center items-center"
+        >
+          <img
+            src="./assets/images/"
+            alt=""
+            class="h-auto object-contain relative w-[100px] md:w-[175.64px]"
+          />
+          <img
+            src="./assets/images/tt.png"
+            alt=""
+            class="absolute h-auto object-contain w-[13px] md:w-[50px] rounded-full"
+          />
+        </a>
+        <div class="logo relative">
+          <img
+            src="./assets/images/logo.png"
+            alt=""
+            class="h-auto object-contain w-[50px] md:w-[50px]"
+            style="border-radius: 50%"
+          />
+        </div>
+        <a
+          target="_blank"
+          href="tglink"
+          class="social hover:rotate-[-25deg] duration-200 relative flex justify-center items-center"
+        >
+          <img
+            src="./assets/images/"
+            alt=""
+            class="h-auto object-contain relative w-[100px] md:w-[175.64px]"
+          />
+          <img
+            src="./assets/images/tg.png"
+            alt=""
+            class="absolute h-auto object-contain w-[13px] md:w-[50px]"
+          />
+        </a>
+      </nav>
+
+      <!-- hero -->
+      <section
+        class="hero w-full pb-[50px] xl:pb-0 h-auto relative flex items-center max-lg:pt-[50px]"
+        style="background: #cc8d79 !important"
+      >
+        <!-- background -->
+        <div
+          class="bg-image overflow-hidden imageHero w-full h-full absolute left-0 top-0 flex justify-center items-center"
+        >
+          <img
+            src="./assets/images/bg_image.png"
+            alt=""
+            class="object-cover w-full h-full left-0 top-0 zoomIn_animation"
+            style="animation-delay: -5s"
+          />
+        </div>
+
+        <div
+          class="content pt-[70px] md:pt-[100px] xl:pt-[0px] relative h-auto xl:h-[834px] w-full xl:pl-[3rem] mx-auto flex justify-between items-center flex-col xl:flex-row"
+        >
+          <div
+            class="left w-[90%] xl:w-[620px] flex flex-col items-center"
+            data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-delay="300"
+          >
+            <div
+              class="w-full relative gentyFont text-white flex justify-center"
+            >
+              <!-- <h1 class="text-[10vw] lg:text-[60px] absolute top-[5%] right-[11%] heroTitle">Moo Tun</h1> -->
+              <h1 class="ttl">TONI</h1>
+            </div>
+            <p class="text-white text-center text-[25.99px] relative w-full">
+              Meet Moo Deng's Big Brother Moo Tun: The Bouncy Internet
+              Sensation!
+            </p>
+            <div
+              class="btns flex justify-center items-center w-full relative gap-[1rem] mt-[2rem]"
+            >
+              <a
+                target="_blank"
+                href="chartlink"
+                class="duration-300 relative bg-white w-[130px] h-[50px] md:w-[151px] md:h-[58px] rounded-full flex items-center justify-center"
+              >
+                <p class="text-center text-black font-[700] md:text-[22px]">
+                  CHART
+                </p>
+              </a>
+              <a
+                target="_blank"
+                href="buylink"
+                class="duration-300 relative bg-white w-[130px] h-[50px] md:w-[151px] md:h-[58px] rounded-full flex items-center justify-center"
+              >
+                <p class="text-center text-black font-[700] md:text-[22px]">
+                  BUY NOW
+                </p>
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="right relative w-full xl:w-[763px] flex justify-end items-end lg:h-full"
+            data-aos="fade-left"
+            data-aos-duration="500"
+            data-aos-delay="300"
+          >
+            <img
+              src="./assets/images/hero_image.png"
+              alt="popo"
+              class="w-full h-auto object-cover zoomIn_animation"
+              style="width: 500px; border-radius: 2%"
+            />
+          </div>
+        </div>
+
+        <!-- marquee -->
+        <div
+          class="marquee_container absolute left-0 bottom-0 w-full h-auto"
+          style="border-top: 3px solid #000; border-bottom: 3px solid #000"
+        >
+          <div class="marquee bordered marquee-left">
+            <div class="marquee-el" style="animation-duration: 45s">
+              <p>
+                <span>TONI</span
+                >&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;
+                <span>TONI</span
+                >&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;
+              </p>
+            </div>
+            <div class="marquee-el" style="animation-duration: 45s">
+              <p>
+                <span>TONI</span
+                >&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;
+                <span>TONI</span
+                >&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- who -->
+      <section
+        class="who w-full h-auto relative flex items-start justify-center py-[140px]"
+      >
+        <!-- background -->
+        <div
+          class="bg-image overflow-hidden z-0 w-full h-full absolute left-0 top-0 flex justify-center items-center imageWho"
+        >
+          <img
+            src="./assets/images/bg_image.png"
+            alt=""
+            class="object-cover w-full h-full left-0 top-0 zoomIn_animation"
+          />
+        </div>
+
+        <div
+          class="content z-[1] relative xl:py-0 bg-[#AEDC71CC] w-[1467px] max-w-[90%] h-auto py-[50px] xl:max-h-[1000px] xl:h-[572px] rounded-[66px] flex flex-col xl:flex-row justify-between items-center px-[3rem]"
+          style="background-color: #442604 !important"
+        >
+          <div class="h-[100%] relative">
+            <div
+              class="relative"
+              data-aos="zoom-in"
+              data-aos-duration="500"
+              data-aos-delay="100"
+            >
+              <img
+                src="./assets/images/logo.png"
+                alt="popo"
+                class="float_animation w-auto object-contain h-full"
+                style="width: 450px; border-radius: 10px; margin-top: 150px"
+              />
+
+              <!-- <blockquote
+                style="height: 461px"
+                class="tiktok-embed"
+                cite="https://www.tiktok.com/@bestofmoodeng/video/7418936246606548255"
+                data-video-id="7418936246606548255"
+                style="max-width: 605px; min-width: 325px"
+              >
+                <section>
+                  <a
+                    target="_blank"
+                    title="@bestofmoodeng"
+                    href="https://www.tiktok.com/@bestofmoodeng?refer=embed"
+                    >@bestofmoodeng</a
+                  >
+                  Showing Moo Tun some love
+                  <a
+                    title="moodeng"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/moodeng?refer=embed"
+                    >#moodeng</a
+                  >
+                  <a
+                    title="babyhippo"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/babyhippo?refer=embed"
+                    >#babyhippo</a
+                  >
+                  <a
+                    title="cuteanimals"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/cuteanimals?refer=embed"
+                    >#cuteanimals</a
+                  >
+                  <a
+                    title="xyzabc"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/xyzabc?refer=embed"
+                    >#xyzabc</a
+                  >
+                  <a
+                    title="viral"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/viral?refer=embed"
+                    >#viral</a
+                  >
+                  <a
+                    title="fyp"
+                    target="_blank"
+                    href="https://www.tiktok.com/tag/fyp?refer=embed"
+                    >#fyp</a
+                  >
+                  <a
+                    target="_blank"
+                    title="♬ Morning Walk - neozilla"
+                    href="https://www.tiktok.com/music/Morning-Walk-7286347348832192513?refer=embed"
+                    >♬ Morning Walk - neozilla</a
+                  >
+                </section>
+              </blockquote> -->
+            </div>
+          </div>
+
+          <div
+            class="about h-auto w-[100%] xl:max-w-[65%] xl:w-[791px] text-center text-white"
+            data-aos="fade-left"
+            data-aos-duration="500"
+            data-aos-delay="100"
+          >
+            <h2 class="title_styling text-[40px] xl:text-[80px]">
+              Who Is TONI?
+            </h2>
+            <p class="text-[20px] xl:text-[30px]">
+              In the peaceful rivers of Thailand, Moo Tun, a gentle and
+              protective hippo, roams the waters, always watching over his
+              playful younger sister, Moo Deng. Moo Tun is known for his calm
+              demeanor and strong protective instincts, especially when it comes
+              to his sister, who loves to splash and play in the river currents.
+            </p>
+          </div>
+        </div>
+
+        <!-- marquee -->
+        <div
+          class="marquee_container absolute left-0 bottom-0 w-full h-auto"
+          style="border-top: 3px solid #000; border-bottom: 3px solid #000"
+        >
+          <div class="marquee bordered marquee-left">
+            <div class="marquee-el" style="animation-duration: 45s">
+              <p>
+                <span>TONI</span
+                >&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;
+                <span>TONI</span
+                >&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;
+              </p>
+            </div>
+            <div class="marquee-el" style="animation-duration: 45s">
+              <p>
+                <span>TONI</span
+                >&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;
+                <span>TONI</span
+                >&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- address -->
+      <section
+        class="address w-full h-auto relative flex items-start justify-center py-[100px]"
+      >
+        <!-- background -->
+        <div
+          class="bg-image overflow-hidden w-full h-full absolute left-0 top-0 flex justify-center items-center imageContract"
+        >
+          <img
+            src="./assets/images/bg_image.png"
+            alt=""
+            class="object-cover w-full h-full left-0 top-0 zoomIn_animation"
+            style="animation-delay: -8s"
+          />
+        </div>
+
+        <div class="content relative w-full flex flex-col items-center">
+          <h2
+            class="title_styling text-[40px] md:text-[80px]"
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="100"
+          >
+            CONTRACT ADDRESS
+          </h2>
+          <div
+            class="copy_address cursor-pointer max-w-[90%] w-[767.09px] h-[50.87px] bg-white border-[2px] border-[#343230] rounded-full flex items-center justify-between px-[1rem]"
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="300"
+          >
+            <p
+              class="value text-[#343230] text-[10px] md:text-[20px] text-ellipsis max-w-[70%] overflow-hidden"
+              data-set="HCx3QbUrSSGK1vKt9T5wGW9VH5WMiPaCHmZ4Msr4pump"
+            >
+              HCx3QbUrSSGK1vKt9T5wGW9VH5WMiPaCHmZ4Msr4pump
+            </p>
+            <div
+              class="bg-[#CC8D79] rounded-full text-[#343230] flex justify-center items-center border-[2px] border-[#343230] h-[85%] w-[80px] md:w-[102px] text-[13px] md:text-[18.28px]"
+            >
+              <span>COPY</span>
+            </div>
+          </div>
+
+          <div
+            style="margin-top: 65px; margin-bottom: 30px"
+            class="tax relative mt-[3rem] flex w-full justify-center flex-wrap md:flex-row gap-2 md:gap-[3rem] items-center"
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="500"
+          >
+            <div
+              class="h-auto relative w-[43%] md:w-[225.64px] flex justify-center items-center"
+            >
+              <!-- <img
+                src="./assets/images/bone.png"
+                alt="bone"
+                class="w-full h-auto object-contain"
+              /> -->
+              <p
+                class="absolute text-[14px] md:text-[16px] xl:text-[22px] bg-white border-[2px] border-[#343230] rounded-full p-3"
+              >
+                0/0 TAXES
+              </p>
+            </div>
+            <div
+              class="h-auto relative w-[43%] md:w-[225.64px] flex justify-center items-center"
+            >
+              <!-- <img
+                src="./assets/images/bone.png"
+                alt="bone"
+                class="w-full h-auto object-contain"
+              /> -->
+              <p
+                class="absolute text-[14px] md:text-[16px] xl:text-[22px] bg-white border-[2px] border-[#343230] rounded-full p-3"
+              >
+                LP BURN
+              </p>
+            </div>
+            <div
+              class="h-auto relative w-[43%] md:w-[225.64px] flex justify-center items-center"
+            >
+              <!-- <img
+                src="./assets/images/bone.png"
+                alt="bone"
+                class="w-full h-auto object-contain"
+              /> -->
+              <p
+                class="absolute text-[14px] md:text-[16px] xl:text-[22px] bg-white border-[2px] border-[#343230] rounded-full p-3"
+              >
+                RENOUNCED
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- marquee -->
+        <div
+          class="marquee_container absolute left-0 bottom-0 w-full h-auto"
+          style="border-top: 3px solid #000; border-bottom: 3px solid #000"
+        >
+          <div class="marquee bordered marquee-left">
+            <div class="marquee-el" style="animation-duration: 45s">
+              <p>
+                <span>TONI</span
+                >&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;
+                <span>TONI</span
+                >&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;
+              </p>
+            </div>
+            <div class="marquee-el" style="animation-duration: 45s">
+              <p>
+                <span>TONI</span
+                >&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;
+                <span>TONI</span
+                >&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;<span>TONI</span>&nbsp;&nbsp;
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- join -->
+      <section
+        class="join w-full h-auto relative flex items-start justify-center py-[100px]"
+      >
+        <div class="bg_grass absolute w-full h-full bottom-0 left-0">
+          <img
+            src="./assets/images/grass.svg"
+            alt=""
+            class="absolute bottom-[4%] left-[10%] grass_animation"
+          />
+          <img
+            src="./assets/images/grass.svg"
+            alt=""
+            class="absolute bottom-[10%] right-[10%] grass_animation"
+            style="animation-delay: -0.5s"
+          />
+        </div>
+
+        <div
+          class="content relative w-full flex-col items-center"
+          data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-delay="100"
+        >
+          <h2 class="title_styling text-[40px] md:text-[80px] text-center">
+            JOIN THE FAM NOW
+          </h2>
+
+          <center>
+            <p style="color: white; font-size: 18px">TONI@proton.me</p>
+          </center>
+
+          <div
+            class="socials mt-[30px] xl:pt-0 w-full flex items-center flex-row justify-center gap-[0px] md:gap-[70px]"
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="300"
+          >
+            <a
+              target="_blank"
+              href="tglink"
+              class="social hover:rotate-[25deg] duration-200 relative flex justify-center items-center"
+            >
+              <img
+                src="./assets/images/tg.png"
+                alt=""
+                class="h-auto object-contain relative w-[80%] md:w-[70px]"
+              />
+
+              <!-- <img
+                src="./assets/images/telegram.svg"
+                alt=""
+                class="absolute h-auto object-contain w-[19px] md:w-[30px]"
+              /> -->
+            </a>
+
+            <a
+              target="_blank"
+              href="twitterlink"
+              class="social hover:rotate-[-25deg] duration-200 relative flex justify-center items-center"
+            >
+              <img
+                src="./assets/images/tt.png"
+                alt=""
+                class="h-auto object-contain relative w-[80%] md:w-[70px] rounded-full"
+              />
+
+              <!-- <img
+                src="./assets/images/twitter.svg"
+                alt=""
+                class="absolute h-auto object-contain w-[19px] md:w-[30px]"
+              /> -->
+            </a>
+            <a
+              target="_blank"
+              href="tiktok link"
+              class="social hover:rotate-[-25deg] duration-200 relative flex justify-center items-center"
+            >
+              <img
+                src="./assets/images/tiktok.png"
+                alt=""
+                class="h-auto object-contain relative w-[80%] md:w-[70px]"
+              />
+
+              <!-- <img
+                src="./assets/images/twitter.svg"
+                alt=""
+                class="absolute h-auto object-contain w-[19px] md:w-[30px]"
+              /> -->
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- aos js library animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      //  scroll animation Effect
+      AOS.init({
+        once: true,
+      });
+
+      // bg image
+      document.addEventListener("DOMContentLoaded", function () {
+        const imageHero = document.querySelector(".imageHero img");
+        const imageWho = document.querySelector(".imageWho img");
+        const imageContract = document.querySelector(".imageContract img");
+
+        function checkViewportWidth() {
+          if (window.innerWidth < 500) {
+            imageHero.setAttribute("src", "./assets/images/bg_image.png");
+            imageWho.setAttribute("src", "./assets/images/bg_image.png");
+            imageContract.setAttribute("src", "./assets/images/bg_image.png");
+          } else {
+            imageHero.setAttribute("src", "./assets/images/bg_image.png");
+            imageContract.setAttribute("src", "./assets/images/bg_image.png");
+          }
+        }
+
+        checkViewportWidth();
+        window.addEventListener("resize", checkViewportWidth);
+      });
+
+      // copy address
+      const copybtn = document.querySelector(".copy_address");
+
+      copybtn.addEventListener("click", function () {
+        let textSpan = copybtn.querySelector("span");
+        let intervalId;
+        let addressText = document
+          .querySelector(".value")
+          .getAttribute("data-set");
+        textSpan.innerHTML = "COPIED";
+
+        if (intervalId) {
+          clearInterval(intervalId);
+        }
+
+        intervalId = setInterval(() => {
+          textSpan.innerHTML = "COPY";
+          clearInterval(intervalId);
+        }, 1000);
+
+        navigator.clipboard.writeText(addressText);
+      });
+    </script>
+  </body>
+</html>
